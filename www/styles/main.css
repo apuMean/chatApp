@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+	background: linear-gradient(to right, rgb(182, 233, 240) 0%, #79cf6e 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background:url('../content/chatback1.jpg');
+}
+#img{
+    background: url('../content/image.png');
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+}
+#nickWrapper {
+    display: none;
+}
+#status {
+    color: cornsilk;
+    float: right;
+}
+.banner {
+    height: 100px;
+    width: 100%;
+    background: url('../content/chatback1.jpg');
+}
+.banner p {
+    /* float: left;
+    display: inline-block; */
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+    
+}
+.controls {
+    height: 100px;
+    margin: 5px 0px;
+    position: relative;
+}
+#historyMsg {
+    height: 400px;
+    width: 100%;
+    background-color: #f9f9fa;
+    overflow: auto;
+    padding: 2px;
+    /* border-radius:20px; */
+    border: solid 2px rgb(17, 7, 7);
+
+    /* border-color: solid rebeccapurple 10px; */
+
+}
+#historyMsg img {
+    max-width: 99%;
+}
+.timespan {
+    color:black;
+}
+.items {
+    height: 30px;
+}
+#colorStyle {
+    width: 5%;
+    height: 31px;
+    border: none;
+    padding: 0;
+}
+/*custom the file input*/
+
+.imageLable {
+    position: relative;
+}
+#sendImage {
+    position: absolute;
+    width: 52px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+#loginBtn{
+    background-color: burlywood;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+}
+#nicknameInput{
+    border: solid 5px rgb(221, 60, 31);
+    border-radius: 15px;
+    padding: 10px;
+}
+#pwdInput{
+    border: solid 5px rgb(248, 240, 163);
+    border-radius: 15px;
+    padding: 10px;
+}
+#loginWrapper{
+    background:url('../content/chatback.jpg');
+    border: solid 10px brown;
+    border-radius: 10px;
+}
+/*end custom file input*/
+
+#messageInput {
+    width: 91%;
+    /* max-width: 440px; */
+    height: 200px;
+    max-height: 90px;
+    float:left;
+    background-color: antiquewhite;
+    /* border-radius: 20px; */
+}
+#colorStyle{
+    border-radius: 50%
+}
+#clearBtn{
+    background-color: #f74a07;
+    width: 10%;
+    height: 18px;
+    margin: 0 5px 0px 8px;
+}
+#sendBtn {
+    width: 95px;
+    height: 95px;
+    float: right;
+    background: url('../content/paper-plane.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius: 15px; */
+    background-color:rgb(48, 102, 57);
+}
+#emojiWrapper {
+    display: none;
+    width: 500px;
+    bottom: 105px;
+    position: absolute;
+    background-color: #aaa;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover {
+    background-color: blue;
+}
+#emoji{
+    /* display: inline; */
+    background: url('../content/happy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff7f7f00;
+    width:40px;
+    height: 30px;
+}
+footer {
+    text-align: center;
+}
