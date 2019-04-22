@@ -2,8 +2,10 @@ This is a simple node.js application with socket implementations demonstrating g
 
 Install all the dependancies for the application 
 >npm install
+
 to run the application
 >npm start
+
 host for the application
 locahost:5000
 
